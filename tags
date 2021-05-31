@@ -1,0 +1,101 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Boundingjudge	src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::Boundingjudge(int a, int b)$/;"	f	class:CleaningPathPlanning
+CLEANINGPATHPLANNING_H	include/CleaningPathPlanner.h	8;"	d
+CLEANINGPATHPLANNING_H	src/CleaningPathPlanner.h	8;"	d
+CleaningPathPlanning	include/CleaningPathPlanner.h	/^class CleaningPathPlanning$/;"	c	struct:cellIndex
+CleaningPathPlanning	src/CleaningPathPlanner.cpp	/^CleaningPathPlanning::CleaningPathPlanning(costmap_2d::Costmap2DROS *costmap2d_ros)$/;"	f	class:CleaningPathPlanning
+CleaningPathPlanning	src/CleaningPathPlanner.h	/^class CleaningPathPlanning$/;"	c
+GRID_COVERED_VALUE	include/CleaningPathPlanner.h	/^    int GRID_COVERED_VALUE;$/;"	m	class:cellIndex::CleaningPathPlanning
+GRID_COVERED_VALUE	src/CleaningPathPlanner.h	/^    int GRID_COVERED_VALUE;$/;"	m	class:CleaningPathPlanning
+GetBorderTrackingPathInCV	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::GetBorderTrackingPathInCV(vector<cv::Point2i> &resultVec)$/;"	f	class:CleaningPathPlanning
+GetBorderTrackingPathInROS	src/CleaningPathPlanner.cpp	/^vector<geometry_msgs::PoseStamped> CleaningPathPlanning::GetBorderTrackingPathInROS()$/;"	f	class:CleaningPathPlanning
+GetPathInCV	src/CleaningPathPlanner.cpp	/^vector<cellIndex> CleaningPathPlanning::GetPathInCV()$/;"	f	class:CleaningPathPlanning
+GetPathInROS	src/CleaningPathPlanner.cpp	/^vector<geometry_msgs::PoseStamped> CleaningPathPlanning::GetPathInROS()$/;"	f	class:CleaningPathPlanning
+GetSizeOfCell	include/CleaningPathPlanner.h	/^    int GetSizeOfCell(){return this->SIZE_OF_CELL;}$/;"	f	class:cellIndex::CleaningPathPlanning
+GetSizeOfCell	src/CleaningPathPlanner.h	/^    int GetSizeOfCell() { return this->SIZE_OF_CELL; }$/;"	f	class:CleaningPathPlanning
+Goal	src/next_goal.cpp	/^  struct Goal$/;"	s	class:Path_planned	file:
+PI	include/CleaningPathPlanner.h	/^constexpr double PI =3.14159;$/;"	v
+PI	src/CleaningPathPlanner.h	/^constexpr double PI = 3.14159;$/;"	v
+Path	src/next_goal.cpp	/^  vector<Goal> Path;$/;"	m	class:Path_planned	file:
+Path_planned	src/next_goal.cpp	/^Path_planned::Path_planned()$/;"	f	class:Path_planned
+Path_planned	src/next_goal.cpp	/^class Path_planned$/;"	c	file:
+PublishCoveragePath	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::PublishCoveragePath()$/;"	f	class:CleaningPathPlanning
+PublishGrid	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::PublishGrid()$/;"	f	class:CleaningPathPlanning
+SIZE_OF_CELL	include/CleaningPathPlanner.h	/^    int SIZE_OF_CELL; \/\/must be odd number.$/;"	m	class:cellIndex::CleaningPathPlanning
+SIZE_OF_CELL	src/CleaningPathPlanner.h	/^    int SIZE_OF_CELL; \/\/must be odd number.$/;"	m	class:CleaningPathPlanning
+SetCoveredGrid	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::SetCoveredGrid(double wx, double wy)$/;"	f	class:CleaningPathPlanning
+addGoal	src/next_goal.cpp	/^void Path_planned::addGoal(float X, float Y, bool visit)$/;"	f	class:Path_planned
+cellContainsPoint	src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::cellContainsPoint(Point2i pt, cellIndex cell)$/;"	f	class:CleaningPathPlanning
+cellIndex	include/CleaningPathPlanner.h	/^struct cellIndex$/;"	s
+cellIndex	src/CleaningPathPlanner.h	/^struct cellIndex$/;"	s
+cellMat_	include/CleaningPathPlanner.h	/^    Mat cellMat_;$/;"	m	class:cellIndex::CleaningPathPlanning
+cellMat_	src/CleaningPathPlanner.h	/^    Mat cellMat_;$/;"	m	class:CleaningPathPlanning
+col	include/CleaningPathPlanner.h	/^    int col;$/;"	m	struct:cellIndex
+col	src/CleaningPathPlanner.h	/^    int col;$/;"	m	struct:cellIndex
+costmap2d_	include/CleaningPathPlanner.h	/^    costmap_2d::Costmap2D* costmap2d_;$/;"	m	class:cellIndex::CleaningPathPlanning
+costmap2d_	src/CleaningPathPlanner.h	/^    costmap_2d::Costmap2D *costmap2d_;$/;"	m	class:CleaningPathPlanning
+costmap2d_ros_	include/CleaningPathPlanner.h	/^    costmap_2d::Costmap2DROS* costmap2d_ros_;$/;"	m	class:cellIndex::CleaningPathPlanning
+costmap2d_ros_	src/CleaningPathPlanner.h	/^    costmap_2d::Costmap2DROS *costmap2d_ros_;$/;"	m	class:CleaningPathPlanning
+covered_path_grid_	include/CleaningPathPlanner.h	/^    nav_msgs::OccupancyGrid covered_path_grid_;$/;"	m	class:cellIndex::CleaningPathPlanning
+covered_path_grid_	src/CleaningPathPlanner.h	/^    nav_msgs::OccupancyGrid covered_path_grid_;$/;"	m	class:CleaningPathPlanning
+distance	src/CleaningPathPlanner.cpp	/^double CleaningPathPlanning::distance(Point2i pta, Point2i ptb)$/;"	f	class:CleaningPathPlanning
+findElement	src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::findElement(vector<Point2i> pointsVec, Point2i pt, int &index)$/;"	f	class:CleaningPathPlanning
+freeSpaceVec_	include/CleaningPathPlanner.h	/^    vector<cellIndex> freeSpaceVec_;$/;"	m	class:cellIndex::CleaningPathPlanning
+freeSpaceVec_	src/CleaningPathPlanner.h	/^    vector<cellIndex> freeSpaceVec_;$/;"	m	class:CleaningPathPlanning
+getCellMatAndFreeSpace	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::getCellMatAndFreeSpace(Mat srcImg, Mat &cellMat, vector<cellIndex> &freeSpaceVec)$/;"	f	class:CleaningPathPlanning
+grid_pub_	include/CleaningPathPlanner.h	/^    ros::Publisher grid_pub_;$/;"	m	class:cellIndex::CleaningPathPlanning
+grid_pub_	src/CleaningPathPlanner.h	/^    ros::Publisher grid_pub_;$/;"	m	class:CleaningPathPlanning
+initPose_	include/CleaningPathPlanner.h	/^    tf::Stamped<tf::Pose> initPose_;$/;"	m	class:cellIndex::CleaningPathPlanning
+initPose_	src/CleaningPathPlanner.h	/^    geometry_msgs::PoseStamped initPose_;$/;"	m	class:CleaningPathPlanning
+initializeCoveredGrid	src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::initializeCoveredGrid() \/\/在这里我对CoverGrid的理解为覆盖栅格。$/;"	f	class:CleaningPathPlanning
+initializeMats	src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::initializeMats()$/;"	f	class:CleaningPathPlanning
+initializeNeuralMat	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::initializeNeuralMat(Mat cellMat, Mat neuralizedMat)$/;"	f	class:CleaningPathPlanning
+initialized_	include/CleaningPathPlanner.h	/^    bool initialized_;$/;"	m	class:cellIndex::CleaningPathPlanning
+initialized_	src/CleaningPathPlanner.h	/^    bool initialized_;$/;"	m	class:CleaningPathPlanning
+main	src/PathPlanningNode.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	src/next_goal.cpp	/^int main(int argc, char *argv[])$/;"	f
+mainPlanningLoop	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::mainPlanningLoop()$/;"	f	class:CleaningPathPlanning
+neuralizedMat_	include/CleaningPathPlanner.h	/^    Mat neuralizedMat_;$/;"	m	class:cellIndex::CleaningPathPlanning
+neuralizedMat_	src/CleaningPathPlanner.h	/^    Mat neuralizedMat_;$/;"	m	class:CleaningPathPlanning
+new_path	src/next_goal.cpp	/^bool new_path = false;$/;"	v
+normeNextGoal	src/next_goal.cpp	/^float normeNextGoal;$/;"	v
+passed_path	src/next_goal.cpp	/^nav_msgs::Path passed_path;$/;"	v
+pathVecInROS_	include/CleaningPathPlanner.h	/^    vector<geometry_msgs::PoseStamped> pathVecInROS_;$/;"	m	class:cellIndex::CleaningPathPlanning
+pathVecInROS_	src/CleaningPathPlanner.h	/^    vector<geometry_msgs::PoseStamped> pathVecInROS_;$/;"	m	class:CleaningPathPlanning
+pathVec_	include/CleaningPathPlanner.h	/^    vector<cellIndex> pathVec_;$/;"	m	class:cellIndex::CleaningPathPlanning
+pathVec_	src/CleaningPathPlanner.h	/^    vector<cellIndex> pathVec_;$/;"	m	class:CleaningPathPlanning
+path_callback	src/next_goal.cpp	/^void path_callback(const nav_msgs::Path &path)$/;"	f
+plan_pub_	include/CleaningPathPlanner.h	/^    ros::Publisher plan_pub_;$/;"	m	class:cellIndex::CleaningPathPlanning
+plan_pub_	src/CleaningPathPlanner.h	/^    ros::Publisher plan_pub_;$/;"	m	class:CleaningPathPlanning
+planned_path	src/next_goal.cpp	/^Path_planned planned_path;$/;"	v
+pose_callback	src/next_goal.cpp	/^void pose_callback(const nav_msgs::Odometry &poses)$/;"	f
+pub_passed_path	src/next_goal.cpp	/^ros::Publisher pub_passed_path;$/;"	v
+publishPlan	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::publishPlan(const std::vector<geometry_msgs::PoseStamped> &path)$/;"	f	class:CleaningPathPlanning
+quaternion_ros	src/next_goal.cpp	/^class quaternion_ros$/;"	c	file:
+quaternion_ros	src/next_goal.cpp	/^quaternion_ros::quaternion_ros()$/;"	f	class:quaternion_ros
+resolution_	include/CleaningPathPlanner.h	/^    double resolution_;$/;"	m	class:cellIndex::CleaningPathPlanning
+resolution_	src/CleaningPathPlanner.h	/^    double resolution_;$/;"	m	class:CleaningPathPlanning
+row	include/CleaningPathPlanner.h	/^    int row;$/;"	m	struct:cellIndex
+row	src/CleaningPathPlanner.h	/^    int row;$/;"	m	struct:cellIndex
+srcMap_	include/CleaningPathPlanner.h	/^    Mat srcMap_;$/;"	m	class:cellIndex::CleaningPathPlanning
+srcMap_	src/CleaningPathPlanner.h	/^    Mat srcMap_;$/;"	m	class:CleaningPathPlanning
+taille_last_path	src/next_goal.cpp	/^int taille_last_path = 0;$/;"	v
+theta	include/CleaningPathPlanner.h	/^    double theta; \/\/{0, 45,90,135,180,225,270,315}     };$/;"	m	struct:cellIndex
+theta	src/CleaningPathPlanner.h	/^    double theta; \/\/{0, 45,90,135,180,225,270,315}     $/;"	m	struct:cellIndex
+toQuaternion	src/next_goal.cpp	/^void quaternion_ros::toQuaternion(float pitch, float roll, float yaw)$/;"	f	class:quaternion_ros
+visited	src/next_goal.cpp	/^    bool visited;$/;"	m	struct:Path_planned::Goal	file:
+w	src/next_goal.cpp	/^  float w;$/;"	m	class:quaternion_ros	file:
+writeResult	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::writeResult(Mat resultmat, vector<cellIndex> pathVec)$/;"	f	class:CleaningPathPlanning
+writeResult	src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::writeResult(Mat resultmat, vector<cv::Point2i> pathVec)$/;"	f	class:CleaningPathPlanning
+x	src/next_goal.cpp	/^    float x;$/;"	m	struct:Path_planned::Goal	file:
+x	src/next_goal.cpp	/^  float x;$/;"	m	class:quaternion_ros	file:
+x_current	src/next_goal.cpp	/^float x_current;$/;"	v
+y	src/next_goal.cpp	/^    float y;$/;"	m	struct:Path_planned::Goal	file:
+y	src/next_goal.cpp	/^  float y;$/;"	m	class:quaternion_ros	file:
+y_current	src/next_goal.cpp	/^float y_current;$/;"	v
+z	src/next_goal.cpp	/^  float z;$/;"	m	class:quaternion_ros	file:

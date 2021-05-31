@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="clean_robot" type="path_planning_node" respawn="false" name="path_planning_node" output="screen" clear_params="true">
+        <rosparam file="$(find clean_robot)/config/costmap_common_params.yaml" command="load" ns="cleaning_costmap" />
+        <rosparam file="$(find clean_robot)/config/cleaning_costmap_params.yaml" command="load" />
+    </node>
+    <param name="/NextGoal/tolerance_goal" value="0.5" />
+    <node pkg="clean_robot" type="next_goal" respawn="true" name="next_goal" output="screen" />
+</launch>

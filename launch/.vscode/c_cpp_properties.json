@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/hj/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/hj/catkin_ws/src/Clean-robot-turtlebot3/clean_robot/include/**",
+        "/home/hj/catkin_ws/src/DynamixelSDK/ros/dynamixel_sdk/include/**",
+        "/home/hj/catkin_ws/src/Clean-robot-turtlebot3/explore/include/**",
+        "/home/hj/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/hj/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/hj/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
